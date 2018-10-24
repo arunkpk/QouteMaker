@@ -26,7 +26,7 @@ public class QuoteController {
 	 @RequestMapping(value= {"/homew","/test"})
 	 public String get() {
 	      //mapped to hostname:port/home/
-	        return "Hells23132so sdsdfrssom ssghhet";
+	        return "Hello from GIT";
 	    }
 	 
 	 
