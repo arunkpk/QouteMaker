@@ -8,4 +8,4 @@ phases:
 
 artifacts:
   files:
-    - target/quoteapp.war
+    -destination: /target/quoteapp.war
