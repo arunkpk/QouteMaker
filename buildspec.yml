@@ -1,9 +1,10 @@
+version: 0.1
+
 phases:
-  install:
-      build:
+  build:
     commands:
-      - echo Build started on `date`
-      - mvn install
+      - echo Build completed on `date`
+      - mvn package
 
 artifacts:
   files:
