@@ -7,6 +7,5 @@ phases:
       - mvn package
 
 artifacts:
-  files:  
-   
-   - 'target/*'
+  files:     
+   - 'target/quoteapp-0.0.1-SNAPSHOT.war'
