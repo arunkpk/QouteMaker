@@ -1,5 +1,5 @@
 version: 0.0
-os: Amazon Linux AMI 2018.03
+os: linux
 files:
   - source: /target/quoteapp-0.0.1-SNAPSHOT.war
     destination: /tmp/codedeploy-deployment-staging-area/
