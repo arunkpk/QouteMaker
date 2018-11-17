@@ -1,5 +1,7 @@
 #!/bin/bash
 
+yum install -y httpd
+
 set -e
 
 CATALINA_HOME=/usr/share/tomcat8-codedeploy
