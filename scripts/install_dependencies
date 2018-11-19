@@ -5,13 +5,13 @@ yum install -y httpd
 set -e
 echo "hello"
 CATALINA_HOME=/usr/share/tomcat8-codedeploy
-TOMCAT_VERSION=8.5.35
+TOMCAT_VERSION=7.0.92
 echo "hello"
 # Tar file name
 TOMCAT7_CORE_TAR_FILENAME="apache-tomcat-$TOMCAT_VERSION.tar.gz"
 # Download URL for Tomcat7 core
 echo "hello"
-TOMCAT7_CORE_DOWNLOAD_URL="http://mirrors.wuchna.com/apachemirror/tomcat/tomcat-8/v$TOMCAT_VERSION/bin/$TOMCAT7_CORE_TAR_FILENAME"
+TOMCAT7_CORE_DOWNLOAD_URL="http://mirrors.wuchna.com/apachemirror/tomcat/tomcat-7/v$TOMCAT_VERSION/bin/$TOMCAT7_CORE_TAR_FILENAME"
 echo "hello"
 # The top-level directory after unpacking the tar file
 TOMCAT7_CORE_UNPACKED_DIRNAME="apache-tomcat-$TOMCAT_VERSION"
