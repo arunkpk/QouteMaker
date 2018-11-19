@@ -29,6 +29,7 @@ if [ -d $CATALINA_HOME ]; then
     rm -rf $CATALINA_HOME
 fi
 mkdir -p $CATALINA_HOME
+echo "hello"
 
 # Download the latest Tomcat7 version
 cd /tmp
